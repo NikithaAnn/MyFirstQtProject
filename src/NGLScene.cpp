@@ -154,31 +154,34 @@ void NGLScene::buildVAO()
 
   };
   std::cout<<"Initial "<<verts.size()<<'\n';
+
+
   ngl::Vec3 n=ngl::calcNormal(verts[2],verts[1],verts[0]);
   verts.push_back(n);
   verts.push_back(n);
   verts.push_back(n);
+
   n=ngl::calcNormal(verts[3],verts[4],verts[5]);
   verts.push_back(n);
   verts.push_back(n);
   verts.push_back(n);
 
-  n=ngl::calcNormal(verts[6],verts[7],verts[8]);
+  n=ngl::calcNormal(verts[8],verts[7],verts[6]);
   verts.push_back(n);
   verts.push_back(n);
   verts.push_back(n);
 
-  n=ngl::calcNormal(verts[11],verts[10],verts[9]);
+  n=ngl::calcNormal(verts[9],verts[10],verts[11]);
   verts.push_back(n);
   verts.push_back(n);
   verts.push_back(n);
 
-  n=ngl::calcNormal(verts[12],verts[13],verts[14]);
+  n=ngl::calcNormal(verts[14],verts[13],verts[12]);
   verts.push_back(n);
   verts.push_back(n);
   verts.push_back(n);
 
-  n=ngl::calcNormal(verts[17],verts[16],verts[15]);
+  n=ngl::calcNormal(verts[15],verts[16],verts[17]);
   verts.push_back(n);
   verts.push_back(n);
   verts.push_back(n);
@@ -188,7 +191,7 @@ void NGLScene::buildVAO()
   verts.push_back(n);
   verts.push_back(n);
 
-  n=ngl::calcNormal(verts[23],verts[22],verts[21]);
+  n=ngl::calcNormal(verts[21],verts[22],verts[23]);
   verts.push_back(n);
   verts.push_back(n);
   verts.push_back(n);
