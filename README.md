@@ -23,4 +23,4 @@ NGL (University  Graphics  Library)<p align="left">
 
 
 ##  Output
-![Alt  text](images/GUI "Boid")
+![Alt  text](images/GUI.png "Boid")
